@@ -94,7 +94,7 @@ export const getFutureProfitPredictions = async (coins: any[]): Promise<Predicte
     const coinContext = coins.map(c => `${c.name} (${c.symbol.toUpperCase()}): 24h change ${c.change24h.toFixed(2)}%`).join(', ');
     
     const prompt = `
-      Based on the following list of top moving cryptocurrencies, identify the 10 assets with the HIGHEST profit potential in the next 12 hours.
+      Based on the following list of cryptocurrencies, identify the 30 assets with the HIGHEST profit potential in the next 12 hours.
       Market Data: ${coinContext}
       
       For each selected asset, provide:
