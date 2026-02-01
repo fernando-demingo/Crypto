@@ -1,0 +1,5 @@
+{
+  "name": "CryptoPulse AI: BTC Real-Time Monitor",
+  "description": "A sophisticated real-time Bitcoin price tracker and AI-driven market analyst providing buy/sell recommendations using Gemini 3's advanced reasoning.",
+  "requestFramePermissions": []
+}
